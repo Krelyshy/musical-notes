@@ -274,36 +274,50 @@ Speed of Sound = 345 m/s = 1130 ft/s = 770 miles/hr
 ---
 
 
-#Equations for the Frequency Table
+# Equations for the Frequency Table
 
 The basic formula for the frequencies of the notes of the equal tempered scale is given by
-`fn = f0 * (a)n`
+
+<em>f<sub>n</sub> = f<sub>0</sub> * (a)<sup>n</sup></em>
+
 where
-`f0` = the frequency of one fixed note which must be defined. A common choice is setting the A above middle C (A4) at f0 = 440 Hz.
-`n` = the number of half steps away from the fixed note you are. If you are at a higher note, n is positive. If you are on a lower note, n is negative.
-`fn` = the frequency of the note n half steps away.
-`a` = (2)1/12 = the twelth root of 2 = the number which when multiplied by itself 12 times equals 2 = 1.059463094359...
+
+<em>f<sub>0</sub> = </em> the frequency of one fixed note which must be defined. A common choice is setting the A above middle C (A4) at <em>f<sub>0</sub> = </em> 440 Hz.
+
+<em>n =</em> the number of half steps away from the fixed note you are. If you are at a higher note, n is positive. If you are on a lower note, n is negative.
+
+<em>f<sub>n</sub> = </em> the frequency of the note n half steps away.
+
+<em>a = </em> (2)<sup>1/12</sup> = the twelth root of 2 = the number which when multiplied by itself 12 times equals 2 = 1.059463094359...
 
 The wavelength of the sound for the notes is found from
-`Wn = c/fn`
-where W is the wavelength and c is the speed of sound. The speed of sound depends on temperature, but is approximately 345 m/s at "room temperature."
 
-Examples using A4 = 440 Hz:
+<em>W<sub>n</sub> = c/f<sub>n</sub></em>
 
-C5 = the C an octave above middle C. This is 3 half steps above A4 and so the frequency is
-f3 = 440 * (1.059463..)3 = 523.3 Hz
-If your calculator does not have the ability to raise to powers, then use the fact that
-(1.059463..)3 = (1.059463..)*(1.059463..)*(1.059463..)
-That is, you multiply it by itself 3 times.
+where W is the wavelength and c is the speed of sound. The speed of sound depends on temperature, but is approximately 345 m/s at "room temperature".
 
-Middle C is 9 half steps below A4 and the frequency is:
-f -9 = 440 * (1.059463..)-9 = 261.6 Hz
-If you don't have powers on your calculator, remember that the negative sign on the power means you divide instead of multiply. For this example, you divide by (1.059463..) 9 times.
+---
+
+<h3>Examples using A<sub>4</sub> = 440 Hz:</h3>
+<br>
+C<sub>5</sub> = the C an octave above middle C.  This is 3 half steps
+above A<sub>4</sub> and so the frequency is <br>
+f<sub>3</sub> = 440 * (1.059463..)<sup>3</sup> = 523.3 Hz <br>
+If your calculator does not have the ability to raise to powers, then
+use the fact that<br>
+(1.059463..)<sup>3</sup> = (1.059463..)*(1.059463..)*(1.059463..)<br>
+That is, you multiply it by itself 3 times.<br>
+<br>
+Middle C is 9 half steps below A<sub>4</sub> and the frequency is:<br>
+f<sub> -9</sub> = 440 * (1.059463..)<sup>-9</sup> = 261.6 Hz <br>
+If you don't have powers on your calculator, remember that the 
+negative sign on the power means you divide instead of multiply.  For
+this example, you divide by (1.059463..) 9 times.
+<br>
+
+---
 
 
-
-
-
-[Stolen from this source.](https://pages.mtu.edu/~suits/notefreqs.html)
+[Shamelessly "borrowed" from this source.](https://pages.mtu.edu/~suits/notefreqs.html)
 
 
